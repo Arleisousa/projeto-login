@@ -77,12 +77,30 @@ div#formulario > p {
 form > div.campo {
     background-color: #5f2c82;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 form label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+   
+    font-size: 1em;
+   
+ 
+ 
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px; 
 }
 
 form > input[type=submit] {
